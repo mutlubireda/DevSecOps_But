@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: web-uygulamasi
-        image: mutlueda/web-uygulamasi:v1
+        image: mutlueda/web-uygulamasi:v2
         ports:
         - containerPort: 80
