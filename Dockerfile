@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Uygulamanın çalışacağı port
-EXPOSE 300
+EXPOSE 3000
 
 # Uygulamayı başlat
 CMD [ "node", "server.js" ]
